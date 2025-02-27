@@ -1,0 +1,28 @@
+.redBorder{
+    border: 1px solid red;
+}
+
+
+.displayFlex{
+    display: flex;
+}
+.justifyCenter{
+    justify-content: center;
+}
+.alignCenter{
+    align-items: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.displayInlineBlock{
+    display: inline-block;
+}
+.h100per{
+    height: 100%;
+}
+.cursorPointer{
+    cursor: pointer;
+}

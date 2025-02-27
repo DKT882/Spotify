@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="img/spotifyIconico.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/scrollBar.css">
+</head>
+<body>
+    <nav>
+        <div class="navBar">
+
+            <div class="rightNav h100per">
+                <div class="navLogo h100per cursorPointer" id="spotifyLogo">
+                    <div class="SpotifyLogoImage"></div>
+                </div>
+            </div>
+
+            <div class="centerNav h100per">
+                <div class="homeButton cursorPointer">
+                    <div class="homeIcon"></div>
+                </div>
+
+                <div class="searchBar">
+                    <div class="searchButton cursorPointer">
+                        <div class="searchIcon"></div>
+                    </div>
+                    <div class="search"><input class="searchInput" type="text" placeholder="What do you want to play?">
+                    </div>
+                    <div class="browseButton cursorPointer">
+                        <div class="browseIcon"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="leftNav h100per">
+                <div class="sighUp cursorPointer">Sign up</div>
+                <div class="logIn cursorPointer">Log in</div>
+            </div>
+        </div>
+    </nav>
+    <!-- middle section start from here -->
+    <section class="middleSection">
+        <div class="leftSection">
+
+            <div class="leftTop">
+                <div class="leftLibrary">
+                    <div class="library">
+                        <div class="libraryIcon"></div>
+                        <div class="yourLibrary">
+                            Your Library
+                        </div>
+                    </div>
+                    <div class="add">
+                        <div class="addIcon"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="playlistCard">
+                <ul>
+                </ul>
+            </div>
+
+            <div class="leftFooter">
+                <div class="leftSectionFooter">
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/">
+                            <span>Legal</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                            <span>Safety &amp; Privacy Center</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                            <span>Privacy Policy</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                            <span>Cookies</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                            <span>About Ads</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/">
+                            <span>Accessibility</span>
+                        </a>
+                    </div>
+                </div>
+            </div> <!-- leftFooter -->
+
+
+        </div> <!-- leftSection -->
+
+        <div class="rightSection">
+            <div class="songs">
+                <div class="songsCard" role="button">
+                    <div class="songCardMargin">
+                        <div class="songCardThumbnail">
+                        </div>
+                        <div class="songsCardDetail">
+                            <a id="songName" href="/">Song Name</a>
+                            <a id="songArtist" href="/">Song Artist</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- middle section ended here -->
+
+    <seciton class="playbar">
+        <div class="playsection">
+            <!-- playsection left -->
+            <div class="playSectionLeft">
+                <div class="playBarThumbnail">
+                    <img src="img/first_playlist.jpeg" alt="song Thumbnail">
+                    <div class="playBarSongDetails">
+                        <div class="playbarSongName"> <a href="">Song Name</a></div>
+                        <div class="playbarSongArtist"><a href="">Song Artist</a></div>
+                    </div>
+                </div>
+            </div>
+            <!-- playsection middle -->
+            <div class="playsectionMiddle">
+                <div class="playerAbove">
+                    <div role="button" class="suffle playBarButton">
+                        <div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div role="button" class="previous playBarButton">
+                        <div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div role="button" class="playBarPlayer playBarButton">
+                        <div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div role="button" class="next playBarButton">
+                        <div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div role="button" class="loop playBarButton">
+                        <div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Seek bar-->
+                <div class="player">
+                    <div class="playSeekBar">
+                        <div class="runningTime">00:00</div>
+                        <div class="seek">
+                            <div class="beforePlaying"></div>
+                            <div class="afterPlaying">
+                                <div class="seekCircle"></div>
+                            </div>
+                        </div>
+                        <div class="songDuration">00:00</div>
+                    </div>
+                </div>
+            </div>
+            <!-- playsection right -->
+            <div class="playsectionRight">
+                <div class="volumeButton" role="button"></div>
+                <div class="volulmeSeek">
+                    <div class="beforeVolume">
+                        <div class="afterVolume">
+                            <div class="volumekCircle"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </seciton>
+</body>
+<script src="js/script.js"></script>
+
+</html>
